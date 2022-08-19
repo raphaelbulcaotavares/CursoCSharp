@@ -24,7 +24,7 @@ namespace CursoCSharp.EstruturaDeControle {
             if(nota >= 9.0 && bomComportamento) {
                 Console.WriteLine("Quadro de Honra! ");
 
-
+            // Modificações da estrutura if. 
             // Uma estrutura de controle não tem ";". Só existe um caso que tem ";". Depois se mostrará qual é o caso.
             }
         }
