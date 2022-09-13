@@ -9,7 +9,7 @@ namespace CursoCSharp.Fundamentos {
         public static void Executar() {
             // area da circunferencia 
             double raio = 4.5;
-            const double PI = 3.14;
+            const double PI = 3.14; // colocando o const na frente faz com que esse identificador não possa mais ser alterado durante todo seu algoritmo.
 
             raio = 5.5;
             // PI = 3.1415;

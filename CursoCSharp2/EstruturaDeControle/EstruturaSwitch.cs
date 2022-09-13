@@ -21,6 +21,8 @@ namespace CursoCSharp.EstruturaDeControle {
                 case 2:
                     Console.WriteLine("Ruim");
                     break;
+
+                // Ou seja, caso o usuário tenha digitado "1" ou "2", o console vai imprimir a informação "ruim". 
                 case 3:
                     Console.WriteLine("Regular");
                     break;
@@ -28,19 +30,21 @@ namespace CursoCSharp.EstruturaDeControle {
                         Console.WriteLine("Bom");
                         break;
                     }
-                    // pode fazer abrindo as chaves dessa forma também, formando um bloco de código.
+                // pode fazer abrindo as chaves dessa forma também, formando um bloco de código.
                 case 5:
                     Console.WriteLine("Ótimo");
                     Console.WriteLine("Parabéns!");
                     break;
-                    // pode colocar duas sentenças de código também.
+                // pode colocar duas sentenças de código também.
                 default:
+                    // O default significa que caso não seja nem o caso 1 nem o 2, nem 3 etc., ele vai cair como nota inválida.
                     Console.WriteLine("Nota inválida");
                     break;
 
             }
 
             Console.WriteLine("Obrigado por responder!");
+            Console.WriteLine("Até mais!");
         }
     }
 }
