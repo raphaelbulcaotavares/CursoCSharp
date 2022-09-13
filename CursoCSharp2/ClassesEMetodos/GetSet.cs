@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace CursoCSharp.ClassesEMetodos 
 {
     public class Moto {
-        private 
+        private string Marca;
+        private string Modelo;
+        private int Cilindrada;
     }
 
     class GetSet {
